@@ -1,0 +1,131 @@
+@font-face {
+  font-family: figtree;
+  src: url("../fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey: hsl(0, 0%, 50%);
+  --color-black: hsl(0, 0%, 7%);
+  --font-global: figtree, sans-serif;
+}
+
+body {
+  background-color: var(--color-yellow);
+}
+* {
+  box-sizing: border-box;
+  font-family: var(--font-global);
+}
+main {
+  background-color: var(--color-white);
+  max-width: 385px;
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 5rem;
+  padding: 23px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.75);
+  border: 1px solid black;
+}
+
+.card_logo {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  @media screen and (min-width: 400px) {
+    height: auto;
+  }
+}
+
+.card_tag {
+  background-color: var(--color-yellow);
+  width: fit-content;
+  margin-top: 20px;
+  padding: 8px 12px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  @media screen and (min-width: 400px) {
+    font-size: 0.9rem;
+  }
+}
+
+.card_date {
+  margin-top: 15px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  word-spacing: 0px;
+  @media screen and (min-width: 400px) {
+    font-size: 0.9rem;
+    word-spacing: -1.5px;
+  }
+}
+
+.card_titulo {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 700;
+  word-spacing: -2px;
+  @media screen and (min-width: 400px) {
+    font-size: 25px;
+  }
+}
+
+.card_titulo:hover {
+  cursor: pointer;
+  color: var(--color-yellow);
+}
+
+.card_content {
+  font-size: 0.9rem;
+  word-spacing: -1.5px;
+  margin-top: 16px;
+  line-height: 21px;
+
+  @media screen and (min-width: 400px) {
+    font-size: 1rem;
+    margin-top: 21px;
+    word-spacing: normal;
+    line-height: 23.5px;
+  }
+}
+
+.card_contenedor_footer {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.card_contenedor_footer img {
+  width: 32px;
+}
+
+.card_contenedor_footer span {
+  padding-left: 12px;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5px;
+  color: black;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+footer {
+  padding-bottom: 1rem;
+}
+.footer_mi_nombre a {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
