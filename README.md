@@ -16,4 +16,4 @@ Además, he utilizado la extensión PerfectPixel para hacer mi creación lo más
 
 ### Link
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Página Web Live](https://waldohidalgo.github.io/proyecto_3_blog_preview_card_frontendmentor/)
