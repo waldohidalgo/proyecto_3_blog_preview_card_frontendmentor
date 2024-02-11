@@ -14,16 +14,23 @@
 body {
   background-color: var(--color-yellow);
 }
+
 * {
   box-sizing: border-box;
   font-family: var(--font-global);
+}
+
+.contenedor_card {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main {
   background-color: var(--color-white);
   max-width: 385px;
   width: 90%;
-  margin-inline: auto;
-  margin-block: 5rem;
+
   padding: 23px;
   border-radius: 20px;
   box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.75);
