@@ -64,7 +64,7 @@ main {
 .card_date {
   margin-top: 15px;
   font-size: 0.74rem;
-  font-weight: 600;
+  font-weight: 500;
   word-spacing: 0px;
   @media screen and (min-width: 400px) {
     font-size: 0.9rem;
@@ -92,7 +92,8 @@ main {
   word-spacing: -1.5px;
   margin-top: 16px;
   line-height: 21px;
-
+  font-weight: 400;
+  color: grey;
   @media screen and (min-width: 400px) {
     font-size: 1rem;
     margin-top: 21px;
